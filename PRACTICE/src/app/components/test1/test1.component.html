@@ -1,0 +1,20 @@
+
+  
+ <div class="log-form">
+
+    <h2>Login </h2>
+    <form>
+        <label for="Username">Username:</label>
+      <input type="text" title="username" name="username" [(ngModel)]="username" placeholder="username" />
+      <br>
+      <br>
+     <label for="passowrd">Password:</label>
+      <input type="password" title="username"name="password" [(ngModel)]="password" placeholder="password" />
+      <br>
+      <br>
+      <button type="submit" class="btn" routerLink="/nextpage" (click)="login()">Login</button>
+      <br>
+      <br>
+      <a class="forgot" >Forgot Username?</a>
+    </form>
+ 

@@ -1,0 +1,13 @@
+<table>
+    <tr>
+        <th>
+            username
+        </th>
+        <th>password</th>
+    </tr>
+    <tr *ngIf="let users of users">
+        <td>{{users.username}}</td>
+        <td>{{users.password}}</td>
+
+    </tr>
+</table>
